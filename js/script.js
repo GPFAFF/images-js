@@ -1,9 +1,13 @@
+// Window Resize Function on ready 
+
 $(document).ready(function(){
 
   $(window).resize(imgResize);
   imgResize();
 
 });
+
+// IMG RESIZE FUNCTION
 
     function imgResize() {
 
